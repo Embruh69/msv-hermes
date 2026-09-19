@@ -4,8 +4,8 @@ title: MSV Hermes
 # GitHub Pages PROJECT site: the repo name goes in baseurl, NOT in url.
 #   url     = scheme + host only (used by absolute_url: og:image, og:url, etc.)
 #   baseurl = subpath the site is served from (used by relative_url: CSS, JS, images, links)
-url: "https://embruh69.github.io"
-baseurl: "/msv-hermes-privatebranch"
+url: "https://msv-hermes.net"
+baseurl: "/countdown.html"
 
 # For the real deployment on the custom domain, use instead:
 # url: "https://msv-hermes.net"
