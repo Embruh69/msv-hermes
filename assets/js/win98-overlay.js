@@ -97,7 +97,8 @@
     if (document.getElementById('win98-desktop')) return;
 
     // 1. Grab everything currently in <body> — this is the real site.
-    var originalChildren = Array.prototype.slice.call(document.body.childNodes);
+    var originalChildren = Array.prototype.slice.call(document.body.childNodes)
+          .filter(function (node) { return node.id !== 'gate-overlay'; });
 
     // 2. Build the desktop / window frame skeleton.
     var desktop = document.createElement('div');
